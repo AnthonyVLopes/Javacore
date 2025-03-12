@@ -1,6 +1,6 @@
 package github.anthony.java.javacore.Lclassesabstratas.dominio;
 
-public  abstract class Funcionario {
+public abstract class Funcionario extends Pessoa{
 
     protected String nome;
     protected double salario;
@@ -9,11 +9,13 @@ public  abstract class Funcionario {
         this.nome = nome;
         this.salario = salario;
 
-       calculadoraBonus();
+        calculadoraBonus();
     }
+    @Override
+    public void imprime(){
+    } // Uma classe não  extender de outras duas superclasses, mas a hieraquia pode ser maior.
 
-public void calculadoraBonus(){
-        this.salario = salario + salario * 0.1;
-    }
+    public abstract void calculadoraBonus();
+
 
 }

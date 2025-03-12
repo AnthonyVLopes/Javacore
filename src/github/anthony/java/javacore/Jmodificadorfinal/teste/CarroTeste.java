@@ -1,7 +1,6 @@
-package github.anthony.java.javacore.Jmodificadorfical.teste;
+package github.anthony.java.javacore.Jmodificadorfinal.teste;
 
-import github.anthony.java.javacore.Jmodificadorfical.dominio.Carro;
-import github.anthony.java.javacore.Jmodificadorfical.dominio.Comprador;
+import github.anthony.java.javacore.Jmodificadorfinal.dominio.Carro;
 
 public class CarroTeste {
 

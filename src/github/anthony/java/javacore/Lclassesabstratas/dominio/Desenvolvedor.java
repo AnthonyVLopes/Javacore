@@ -8,7 +8,7 @@ public class Desenvolvedor extends Funcionario{
 
     @Override
     public void calculadoraBonus(){
-        this.salario = salario + salario * 0.01;
+        this.salario = salario + salario * 0.05;
     }
 
 

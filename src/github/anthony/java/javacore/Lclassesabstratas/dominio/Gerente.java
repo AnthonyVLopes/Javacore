@@ -13,4 +13,9 @@ public class Gerente extends Funcionario {
                 ", salario=" + salario +
                 '}';
     }
+
+    @Override
+    public void calculadoraBonus() {
+        this.salario =  salario + salario * 0.1;
+    }
 }

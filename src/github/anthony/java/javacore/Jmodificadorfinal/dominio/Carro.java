@@ -1,4 +1,4 @@
-package github.anthony.java.javacore.Jmodificadorfical.dominio;
+package github.anthony.java.javacore.Jmodificadorfinal.dominio;
 
 public class Carro {
     private String nome;
