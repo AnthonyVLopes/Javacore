@@ -11,6 +11,8 @@ public class DBSTest01 {
 
         dataBaseLoader.load();
         fileLoader.load();
+        dataBaseLoader.remove();
+        fileLoader.remove();
 
 
     }
