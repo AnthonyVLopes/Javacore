@@ -13,6 +13,7 @@ public class DBSTest01 {
         fileLoader.load();
         dataBaseLoader.remove();
         fileLoader.remove();
+        dataBaseLoader.checkPermission();
 
 
     }
