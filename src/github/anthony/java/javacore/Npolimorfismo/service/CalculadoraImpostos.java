@@ -1,6 +1,4 @@
 package github.anthony.java.javacore.Npolimorfismo.service;
-
-import github.anthony.java.javacore.Npolimorfismo.domain.Computador;
 import github.anthony.java.javacore.Npolimorfismo.domain.Produto;
 import github.anthony.java.javacore.Npolimorfismo.domain.Tomate;
 

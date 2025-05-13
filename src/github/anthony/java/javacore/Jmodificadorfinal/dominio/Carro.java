@@ -1,6 +1,6 @@
 package github.anthony.java.javacore.Jmodificadorfinal.dominio;
 
-public class Carro {
+public class Carro extends Object {
     private String nome;
     public static final double VELOCIDADE_LIMITE = 250;
     public final Comprador COMPRADOR = new Comprador();
